@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đáp Án Bài Tập Tin Học</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f4f7f6;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            border-bottom: 2px solid #27ae60;
+            padding-bottom: 10px;
+        }
+        .section {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #27ae60;
+            font-size: 1.2em;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #27ae60;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .correct {
+            font-weight: bold;
+            color: #e67e22;
+        }
+        .true-false {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>ĐÁP ÁN ĐỀ CƯƠNG TIN HỌC</h1>
+
+    <div class="section">
+        <h2>PHẦN I: Câu hỏi trắc nghiệm</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Câu</th>
+                    <th>Đáp án đúng</th>
+                    <th>Nội dung tóm tắt</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Câu 1</td>
+                    <td class="correct">A</td>
+                    <td>=IF(logical_test, [value_if_true], [value_if_false])</td>
+                </tr>
+                <tr>
+                    <td>Câu 2</td>
+                    <td class="correct">C</td>
+                    <td>Sử dụng hàm IF lồng nhau để xếp loại Tốt, Khá, Đạt...</td>
+                </tr>
+                <tr>
+                    <td>Câu 3</td>
+                    <td class="correct">C</td>
+                    <td>=COUNTIF(range, criteria)</td>
+                </tr>
+                <tr>
+                    <td>Câu 4</td>
+                    <td class="correct">B</td>
+                    <td>=SUMIF(range, criteria, [sum_range])</td>
+                </tr>
+                <tr>
+                    <td>Câu 5</td>
+                    <td class="correct">B</td>
+                    <td>=COUNTIF(C2:C40, ">=9")</td>
+                </tr>
+                <tr>
+                    <td>Câu 6</td>
+                    <td class="correct">B</td>
+                    <td>=SUMIF(D2:D40, ">=8", D2:D40)</td>
+                </tr>
+                <tr>
+                    <td>Câu 7</td>
+                    <td class="correct">A</td>
+                    <td>=IF(D2>=8, "Tốt", IF(D2>=6.5, "Khá", "Đạt"))</td>
+                </tr>
+                <tr>
+                    <td>Câu 8</td>
+                    <td class="correct">A</td>
+                    <td>Nếu n chia hết cho 2 thì thông báo "Số chẵn"</td>
+                </tr>
+                <tr>
+                    <td>Câu 9</td>
+                    <td class="correct">C</td>
+                    <td>Dữ liệu đầu vào là Dãy số cần xét</td>
+                </tr>
+                <tr>
+                    <td>Câu 10</td>
+                    <td class="correct">A</td>
+                    <td>Xác định yếu tố đã cho và kết quả cần đạt</td>
+                </tr>
+                <tr>
+                    <td>Câu 11</td>
+                    <td class="correct">B</td>
+                    <td>Triển khai giải pháp đã chọn để đạt mục tiêu</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>PHẦN II: Câu trắc nghiệm đúng/sai</h2>
+        
+        <h3>Câu 1 (Bài toán tính lương)</h3>
+        <ul>
+            <li>a) <span class="true-false">Đúng</span> (Nhập dữ liệu đầu vào)</li>
+            <li>b) <span class="true-false">Sai</span> (Công thức chưa tính đến trường hợp làm thêm giờ)</li>
+            <li>c) <span class="true-false">Đúng</span> (Công thức tính lương làm thêm giờ 1.5)</li>
+            <li>d) <span class="true-false">Đúng</span> (Xuất kết quả đầu ra)</li>
+        </ul>
+
+        <h3>Câu 2 (Bài toán tìm số lớn nhất)</h3>
+        <ul>
+            <li>a) <span class="true-false">Sai</span> (Gán cho số đầu tiên của dãy sẽ hợp lý hơn là bất kỳ)</li>
+            <li>b) <span class="true-false">Đúng</span> (Thao tác lặp để so sánh)</li>
+            <li>c) <span class="true-false">Sai</span> (Kết thúc khi nhập x = 0 theo đề bài)</li>
+            <li>d) <span class="true-false">Đúng</span> (Thông báo kết quả)</li>
+        </ul>
+    </div>
+
+</body>
+</html>
